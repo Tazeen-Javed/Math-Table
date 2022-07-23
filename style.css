@@ -1,0 +1,33 @@
+h1{margin-left: 600px; color: brown; margin-left: -1px; margin-left: 500px;}
+h2{color: brown;}
+form{border: 1px solid goldenrod; background-color: beige; width: 400px; display: flex; flex-direction: column;
+ height: 500px; margin-left: 400px; padding-left: 50px; background-image: url(./images/background\(0\).jpg);
+}
+.one{display: flex; flex-direction: row; border: 1px solid; width: 400px; margin-left: -50px;
+    padding-left: 50px; color:coral;}
+
+    input{font-size: 20px; width: 40px; height: 30px; margin-top: 10px; margin-left: 10px; text-align: center;
+    color: darkblue;}
+.two{border: 1px solid; width: 200px;text-align: center; text-decoration: underline; margin-left: 50px;
+margin-top: 50px; color: darkolivegreen; margin-top: -1px; margin-top: 20px;}
+button{font-size: 18px; width: 50px; height: 35px; margin-top: 10px; margin-left: 10px;text-align: center;
+display: flex; padding-right: 50px; padding-top: 10px; color: cadetblue;}
+
+
+
+
+
+
+@media screen and (max-width: 769px){
+    form{width: 400px; margin-left: -1px; margin-left: 100px;}
+    .one{width: 300px;  margin-left: -1px;}
+    h1{margin-left: -1px; margin-left: 230px;}
+}
+
+@media screen and (max-width: 376px){
+    h1{margin-left: -1px; margin-left: 100px;}
+    form{width: 300px; margin-left: -2px;}
+    .one{width: 200px;font-size: 14px; padding-left: 0px;  margin-left: -10px;}
+        .two{margin-left: -5px; margin-top: -1px; margin-top: 10px;}
+
+}
