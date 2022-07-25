@@ -25,14 +25,15 @@
 
 
 <script>
-function MathTable()
+function MathTable() 
 {
 
     let EnterNumber = +document.querySelector("#EnterNumber").value;
+     let result= document.querySelector("#result").innerHTML="";
    
     for(let i = 1; i <= 10; i++)
      {
-        let result = EnterNumber * i;
+         result = EnterNumber * i;
 
    document.querySelector("#result").innerHTML += `${EnterNumber} x ${i} = ${result} </br>`
 
